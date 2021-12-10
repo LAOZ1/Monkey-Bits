@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usuarioos",
+  "info": {
+    "name": "usuarioo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Contrasena": {
+      "type": "string"
+    }
+  }
+}

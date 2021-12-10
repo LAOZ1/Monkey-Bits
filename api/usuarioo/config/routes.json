@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/usuarioos",
+      "handler": "usuarioo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usuarioos/count",
+      "handler": "usuarioo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usuarioos/:id",
+      "handler": "usuarioo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/usuarioos",
+      "handler": "usuarioo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/usuarioos/:id",
+      "handler": "usuarioo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/usuarioos/:id",
+      "handler": "usuarioo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
